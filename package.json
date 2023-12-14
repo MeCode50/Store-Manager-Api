@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "commit": "npx git-cz",
+    "release": "npx semantic-release"
+
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,8 @@
     "mongoose": "^5.11.10"
   },
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "nodemon": "^2.0.7"
   }
 }
